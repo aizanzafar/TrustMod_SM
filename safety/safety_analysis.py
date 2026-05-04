@@ -4,13 +4,13 @@ Safety Axis – Deep Analysis & Visualization for NeurIPS Paper
 =============================================================
 Two sub-axes:
   A. CONCEALMENT: Can an LLM disguise toxic content to evade moderation?
-     - Dataset: 116 toxic samples from ToxiGen, across 5 identity dimensions
-     - 4 prompt strategies × 116 samples = 464 rows per model
+     - Dataset: 1002 toxic samples from ToxiGen, across 5 identity dimensions
+     - 4 prompt strategies × 1002 samples = 4008 rows per model
      - Key metrics: Concealment Score (CCS), toxicity drop, abstention rate
 
   B. EXAGGERATION: Can an LLM amplify misinformation in real news?
-     - Dataset: 100 real COVID tweets from Constraint dataset (head of 3,303)
-     - 4 prompt strategies × 100 samples = 400 rows per model
+     - Dataset: 1000 real COVID tweets from Constraint dataset (head of 3,303)
+     - 4 prompt strategies × 1000 samples = 4000 rows per model
      - Key metrics: Factual Drift Score (FDS), Fake Drift Rate (FDR), CSS
 
 Generates all tables, visualizations, and deep analysis report.
