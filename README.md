@@ -124,8 +124,8 @@ Each dimension uses task-specific datasets:
 @inproceedings{trustmodsm2026,
   title={TrustMod-SM: A Multi-Axis Benchmark for Evaluating Trustworthiness of LLMs in Social Media Content Moderation},
   author={},
-  booktitle={NeurIPS 2026 Datasets and Benchmarks Track},
-  year={2026}
+  booktitle={},
+  year={}
 }
 ```
 
