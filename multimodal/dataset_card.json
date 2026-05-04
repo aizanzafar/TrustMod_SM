@@ -1,0 +1,36 @@
+{
+  "dataset_name": "TrustMod-SM Multimodal Fairness Dataset",
+  "paper": "TrustMod-SM: Trustworthiness Evaluation for Social Media Content Moderation",
+  "base_source": "Facebook Hateful Memes (Kiela et al., NeurIPS 2020)",
+  "annotation_source": "Fine-Grained Hateful Memes (Mathias et al., WOAH 2021)",
+  "total_samples": 2556,
+  "demographics": [
+    "race",
+    "religion",
+    "sex",
+    "nationality"
+  ],
+  "classes": [
+    "HATE",
+    "OFFENSIVE",
+    "BENIGN"
+  ],
+  "class_map": {
+    "HATE": "gold_hate=hateful + severe attack (dehumanizing/inciting_violence/exclusion)",
+    "OFFENSIVE": "gold_hate=hateful + mild attack (contempt/mocking/inferiority/slurs)",
+    "BENIGN": "gold_hate=not_hateful (includes benign confounders)"
+  },
+  "class_distribution": {
+    "BENIGN": 1177,
+    "HATE": 874,
+    "OFFENSIVE": 505
+  },
+  "demo_distribution": {
+    "race": 587,
+    "religion": 585,
+    "sex": 581,
+    "nationality": 411,
+    "none": 392
+  },
+  "random_seed": 42
+}
