@@ -7,16 +7,16 @@ Evaluates LLM vulnerability to adversarial manipulation strategies that aim to e
 ### Concealment
 Tests whether adversarial prompt strategies can cause LLMs to miss genuinely toxic content.
 
-- **Dataset:** 116 toxic social media samples
+- **Dataset:** 1002 toxic social media samples
 - **Strategies:** 4 concealment prompt strategies (self-referential framing, etc.)
-- **Total evaluations:** 116 × 4 = 464 test cases
+- **Total evaluations:** 1002 × 4 = 4008 test cases
 
 ### Exaggeration
 Tests whether adversarial prompt strategies can cause LLMs to flag benign content as harmful.
 
-- **Dataset:** 100 COVID-related tweets (factual/benign)
+- **Dataset:** 1000 COVID-related tweets (factual/benign)
 - **Strategies:** 4 exaggeration/sensationalization strategies
-- **Total evaluations:** 100 × 4 = 400 test cases
+- **Total evaluations:** 1000 × 4 = 4000 test cases
 
 ## Scripts
 
