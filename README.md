@@ -101,8 +101,8 @@ Each dimension uses task-specific datasets:
 | Robustness | SBIC-Obfuscated | 6,848 | SBIC with 3 obfuscation types |
 | Fairness | Fairness Merged | 3,298 | Curated with demographic attributes |
 | CI | HateCheck-CI | 3,436 | HateCheck with CI schema |
-| Safety (Concealment) | Concealment | 116 × 4 strategies | Curated toxic samples |
-| Safety (Exaggeration) | Exaggeration | 100 × 4 strategies | COVID tweets |
+| Safety (Concealment) | Concealment | 1002 × 4 strategies | Curated toxic samples |
+| Safety (Exaggeration) | Exaggeration | 1000 × 4 strategies | COVID tweets |
 | Multimodal | TrustMod-Multimodal | 2,500+ | Text + image pairs |
 
 > **Note:** Datasets are available separately. Please refer to the dataset documentation in each dimension's directory.
