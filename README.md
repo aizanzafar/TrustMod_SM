@@ -55,7 +55,7 @@ For multimodal evaluation:
 
 ```bash
 # Clone the repository
-git clone https://anonymous.4open.science/r/TrustMod-SM
+git clone https://github.com/aizanzafar/TrustMod_SM
 cd TrustMod-SM
 
 # Create conda environment
