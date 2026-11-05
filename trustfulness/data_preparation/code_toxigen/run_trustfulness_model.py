@@ -326,7 +326,7 @@ def main():
     ap.add_argument("--checkpoint_every", type=int, default=50)
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--base_url", default="https://your-llm-endpoint.example.com/v1")
-    ap.add_argument("--api_key_env", default="SIAK-AZjWBJVWQaWjE2lI4RbiZxZ1E8fbb097d")
+    ap.add_argument("--api_key_env", default="")
     ap.add_argument("--max_retries", type=int, default=3)
     ap.add_argument("--sleep_sec", type=float, default=1.0)
     args = ap.parse_args()
