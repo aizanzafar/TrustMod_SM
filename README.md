@@ -121,20 +121,15 @@ Each dimension uses task-specific datasets:
 ## Citation
 
 ```bibtex
-@inproceedings{trustmodsm2026,
-  title     = {TrustMod-SM: A Multi-Axis Benchmark for Evaluating
-               Trustworthiness of LLMs in Social Media Content
-               Moderation},
-  author    = {Zafar, Aizan and
-               Venkata, Sreekantam Sai and
-               Jindal, Gathik and
-               Sharma, Ritu Raj and
-               Ahmad, Zishan and
-               Saha, Tulika and
+@inproceedings{zafar2026trustmodsm,
+  title     = {TrustMod-SM: A Multi-Axis Benchmark for Evaluating Trustworthiness
+               of LLMs in Social Media Content Moderation},
+  author    = {Zafar, Aizan and Venkata, Sreekantam Sai and Jindal, Gathik and
+               Sharma, Ritu Raj and Ahmad, Zishan and Saha, Tulika and
                Srinivasa, Srinath},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026},
-  note      = {Evaluations and Datasets Track}
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS),
+               Evaluations and Datasets Track},
+  year      = {2026}
 }
 
 ```
